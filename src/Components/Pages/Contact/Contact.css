@@ -1,0 +1,104 @@
+/* .faq-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.25rem; 
+  padding-top: 1.25rem;
+  background-color: #ffffff;
+  width: 100%;
+  border-radius: 0.625rem; 
+  }
+  .faq{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+
+  }
+  .faq-header h1{
+    font-size: 2rem;
+  }
+  
+  .faq-btn {
+    margin: 1rem 0;
+  }
+  
+  .faq-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.25rem; 
+  }
+  
+  .faq-img {
+    width: 50%;
+  }
+   */
+
+   .faq-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.25rem; /* 20px */
+    padding-top: 1.25rem;
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 80rem; /* Set a maximum width */
+    margin: 0 auto; 
+    border-radius: 0.625rem; /* 10px */
+  }
+  
+  .faq {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  } 
+  .faq-header h1 {
+    font-size: 2.5rem; /* Larger font size to match the image */
+    font-weight: 700; /* Make the text bold */
+    text-align: center; /* Center the heading */
+    line-height: 1.2; /* Tighten the line spacing */
+    margin-bottom: 0.5rem; /* Reduce the margin below the heading */
+  }
+  
+  .faq-header p {
+    font-size: 1.1rem; /* Slightly larger font size */
+    color: #555; /* Light grey for the text */
+    text-align: center; /* Center the paragraph */
+    line-height: 1.6; /* Adjust line height for readability */
+    margin-top: 0; /* Remove top margin */
+    margin-bottom: 1.5rem; /* Add more space at the bottom */
+  }
+  
+  .faq-btn {
+    display: inline-block;
+    padding: 12px 25px; /* More padding for a larger button */
+    font-size: 1rem;
+    background-color: #007bff; /* Button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem; /* Space between paragraph and button */
+  }
+  
+  .faq-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  
+  .faq-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.25rem; /* 20px */
+  }
+  
+  .faq-img {
+    width: 50%;
+  }
+  

@@ -1,0 +1,120 @@
+.header-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.line-icon-container {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 4.375rem; /* 70px */
+}
+
+.line-icon {
+    height: 1.875rem; /* 30px */
+    margin-right: -0.625rem; /* -10px */
+    margin-top: -1.25rem; /* -20px */
+}
+
+.icon-heading-container {
+    height: 3.625rem; /* 58px */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 0.625rem; /* 10px */
+    border-radius: 0.5rem; /* 8px */
+    box-shadow: 0px 0.25rem 0.625rem rgba(0, 0, 0, 0.1); /* 0px 4px 10px */
+}
+
+.icon-image {
+    padding-right: 0.625rem; /* 10px */
+    width: 3.125rem; /* 50px */
+    background-color: white;
+}
+
+.heading-text {
+    font-size: 1.875rem; /* 30px */
+    font-weight: 600;
+    background-color: white;
+    margin: 0;
+    padding: 0.625rem; /* 10px */
+}
+
+.highlight-text {
+    color: #FF9500;
+    font-weight: 600;
+}
+
+.sub-heading {
+    font-size: 1.625rem; /* 26px */
+    font-weight: 500;
+    line-height: 3.125rem; /* 50px */
+    color: #262626;
+    text-align: center;
+    padding-top: 1.563rem; /* 25px */
+}
+
+.description {
+    font-family: 'Be Vietnam Pro, sans-serif';
+    font-size: 0.875rem; /* 14px */
+    line-height: 1.875rem; /* 30px */
+    padding-top: 0.313rem; /* 5px */
+}
+
+.button-container {
+    display: flex;
+    gap: 0.625rem; /* 10px */
+    padding-top: 1.875rem; /* 30px */
+}
+
+.explore-button, .pricing-button {
+    font-size: 0.75rem; /* 12px */
+    font-weight: 600;
+    width: 9.375rem; /* 150px */
+    height: 2.688rem; /* 43px */
+    border-radius: 0.5rem; /* 8px */
+    cursor: pointer;
+}
+
+.explore-button {
+    color: white;
+    background-color: #FF9500;
+    border: none;
+}
+
+.pricing-button {
+    color: #262626;
+    background-color: #FFFFFF;
+    border: 1px solid #D9D9D9;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 4.5rem; /* 60px */
+    margin-top: 4.375rem; /* 70px */
+    width: 88%;
+    border-radius: 5px;
+    height: 6.25rem; /* 100px */
+    background-color: #FFFFFF;
+}
+
+.card-image {
+    width: 8.75rem; /* 140px */
+    height: 5rem; /* 80px */
+}
+
+.divider {
+    height: 3.75rem; /* 60px */
+    opacity: 0.1;
+}
+
+.container-image video {
+    width: 90%;
+    height:90vh;
+    padding-top: 3.75rem; /* 60px */
+}

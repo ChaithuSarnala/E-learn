@@ -1,0 +1,92 @@
+
+footer{
+  height:40vh;
+  background-color: white;
+  
+}
+.footer-container {
+    width: 100%;
+    background-color: white;
+    margin-top: 3.75rem; /* 60px */
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+  }
+  
+  .footer-logo-section {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-top: 1.875rem; /* 30px */
+    background-color: white;
+  }
+  
+  .footer-logo {
+    height: 2.5rem; /* 40px */
+    width: 2.5rem; /* 40px */
+    background-color: white;
+    padding-bottom: 0.3125rem; /* 5px */
+  }
+  
+  .footer-btn {
+    width: 5.625rem; /* 90px */
+    border: none;
+    background-color: white;
+    line-height: 1.25rem; /* 20px */
+  }
+  
+  .footer-btn-img {
+    height: 1.25rem; /* 20px */
+    background-color: white;
+  }
+  
+  .footer-links-section {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    gap: 1.875rem; /* 30px */
+  }
+  
+  .footer-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 1.875rem; /* 30px */
+    line-height: 3.125rem; /* 50px */
+  }
+ 
+  
+  .footer-link {
+    font-size: 0.75rem; /* 12px */
+    width: 5.625rem; /* 90px */
+    border: none;
+    background-color: white;
+    line-height: 1.25rem; /* 20px */
+  }
+  
+  .footer-social {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1.875rem; /* 30px */
+  }
+  
+  .footer-social-btns {
+    display: flex;
+    gap: 1.25rem; /* 20px */
+    padding-top: 1rem; /* 20px */
+  }
+  
+  .social-btn {
+    width: 2.2rem; /* 40px */
+    height: 1.5625rem; /* 25px */
+    border-radius: 0.3125rem; /* 5px */
+    border: none;
+  }
+  
+  .footer-bottom-text {
+    font-size: 0.75rem; /* 12px */
+    padding-top: 3.125rem; /* 50px */
+  }
+  
